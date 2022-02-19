@@ -22,4 +22,15 @@ pipeline{
             }
         }
     }
+    post{
+        always{
+            //define sth
+        }
+        success{
+            //define sth
+        }
+        failure{
+            //define sth
+        }
+    }
 }
